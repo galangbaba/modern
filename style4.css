@@ -1,0 +1,50 @@
+:root {
+    --bg-mint: #abf7d0;
+    --green-primary: #10b981;
+    --gray-text: #64748b;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif; }
+
+.container { display: flex; height: 100vh; background: #f8fafc; }
+
+/* SIDEBAR STYLING */
+.sidebar { width: 260px; background: var(--bg-mint); padding: 30px 20px; }
+.logo { font-size: 24px; font-weight: bold; color: #064e3b; margin-bottom: 40px; }
+.logo span { color: var(--green-primary); }
+.menu-item {
+    background: white; padding: 15px; border-radius: 10px; margin-bottom: 12px;
+    display: flex; align-items: center; gap: 12px; font-weight: 600; cursor: pointer;
+}
+.menu-item.active { background: var(--green-primary); color: white; }
+
+/* CONTENT STYLING */
+.main-content { flex: 1; background: white; margin: 10px; border-radius: 20px; overflow-y: auto; }
+.header { background: #e6fffa; padding: 15px 40px; display: flex; justify-content: flex-end; }
+.user-info { display: flex; align-items: center; gap: 10px; text-align: right; }
+.user-info i { font-size: 30px; }
+
+/* REPORT GRID */
+.report-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 30px; }
+.card { border: 1px solid #e2e8f0; border-radius: 15px; padding: 20px; }
+.card-title { font-size: 14px; margin-bottom: 20px; color: #334155; }
+
+/* VISUAL ELEMENTS */
+.bar { height: 10px; background: #f1f5f9; border-radius: 10px; margin: 5px 0; }
+.fill { height: 100%; background: var(--green-primary); border-radius: 10px; }
+.total-stock { border-top: 1px solid #eee; margin-top: 15px; padding-top: 10px; text-align: right; font-size: 20px; font-weight: bold; color: var(--green-primary); }
+
+.donut-chart {
+    width: 140px; height: 140px; border-radius: 50%; margin: 0 auto;
+    background: conic-gradient(#10b981 0% 50%, #4ade80 50% 80%, #abf7d0 80% 100%);
+    mask-image: radial-gradient(transparent 55%, black 56%);
+    -webkit-mask-image: radial-gradient(transparent 55%, black 56%);
+}
+
+.bar-chart { display: flex; align-items: flex-end; gap: 10px; height: 100px; }
+.b-item { flex: 1; background: var(--green-primary); border-radius: 5px; }
+.b-item.highlight { background: #abf7d0; }
+.b-item.highlight-soft { background: #dcfce7; }
+.bar-labels { display: flex; justify-content: space-between; margin-top: 10px; color: var(--gray-text); font-size: 12px; }
+
+.svg-line { width: 100%; height: auto; }
