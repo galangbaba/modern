@@ -1,0 +1,199 @@
+.login {
+    background-color: #ecfff2;
+    border: 1px solid;
+    border-color: #000000;
+    width: 100%;
+    min-width: 351px;
+    min-height: 450px;
+    position: relative;
+  }
+  
+  .login .rectangle {
+    position: absolute;
+    top: 113px;
+    left: 42px;
+    width: 268px;
+    height: 257px;
+    background-color: #ffffff;
+  }
+  
+  .login .modern-farm {
+    position: absolute;
+    top: 58px;
+    left: 92px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 32px;
+    letter-spacing: -0.45px;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .login .text-wrapper {
+    color: #101828;
+    letter-spacing: -0.14px;
+  }
+  
+  .login .span {
+    color: #00a63e;
+    letter-spacing: -0.14px;
+  }
+  
+  .login .div {
+    position: absolute;
+    top: 149px;
+    left: 53px;
+    width: 247px;
+    height: 24px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #111111;
+  }
+  
+  .login .rectangle-2 {
+    position: absolute;
+    top: 207px;
+    left: 53px;
+    width: 247px;
+    height: 24px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #111111;
+  }
+  
+  .login .rectangle-3 {
+    position: absolute;
+    top: 271px;
+    left: 53px;
+    width: 247px;
+    height: 24px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #111111;
+  }
+  
+  .login .text-wrapper-2 {
+    position: absolute;
+    top: 128px;
+    left: 58px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #3c3b3b;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login .group {
+    position: absolute;
+    top: 314px;
+    left: 84px;
+    width: 187px;
+    height: 40px;
+  }
+  
+  .login .rectangle-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 185px;
+    height: 50px;
+    background-color: #22c55eb5;
+    border-radius: 12px;
+  }
+  
+  .login .text-wrapper-3 {
+    position: absolute;
+    top: 7px;
+    left: 36px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: -0.45px;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .login .text-wrapper-4 {
+    position: absolute;
+    top: 189px;
+    left: 60px;
+    width: 68px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #3c3b3b;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login .text-wrapper-5 {
+    position: absolute;
+    top: 247px;
+    left: 60px;
+    width: 68px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #3c3b3b;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login .text-wrapper-6 {
+    position: absolute;
+    top: 152px;
+    left: 64px;
+    font-family: "Poppins-ExtraLight", Helvetica;
+    font-weight: 200;
+    color: #7b7777;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login .text-wrapper-7 {
+    position: absolute;
+    top: 210px;
+    left: 63px;
+    font-family: "Poppins-ExtraLight", Helvetica;
+    font-weight: 200;
+    color: #7b7777;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login .text-wrapper-8 {
+    position: absolute;
+    top: 274px;
+    left: 63px;
+    font-family: "Poppins-ExtraLight", Helvetica;
+    font-weight: 200;
+    color: #7b7777;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  /* Menghilangkan margin bawaan dan membuat body setinggi layar */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Mengatur body sebagai container utama yang menengahkan isinya */
+body {
+  display: flex;
+  justify-content: center; /* Menengah secara horizontal */
+  align-items: center;     /* Menengah secara vertikal */
+  background-color: #f0f0f0; /* Opsional: warna latar belakang luar */
+}
+  
